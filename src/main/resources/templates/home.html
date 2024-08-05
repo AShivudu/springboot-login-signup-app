@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        </style>
+</head>
+<body>
+   
+    <h2>Welcome to the home page !</h2>
+    <p>
+        <a th:href="@{/hello}">Go to Hello Page</a>
+    </p>
+</body>
+</html>
